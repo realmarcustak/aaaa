@@ -15,6 +15,7 @@ import { BoardRepository } from 'src/boards/repositories/board.repository';
 @Module({
   imports: [TypeOrmModule.forFeature([Tonic, Category, TonicCategory, User])],
   // controllers: [AdminController],
+  //test
   providers: [
     AdminService,
     TonicRepository,
